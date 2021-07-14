@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134115883822",
+    "project_id": "codenstein-seyyah",
+    "storage_bucket": "codenstein-seyyah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134115883822:android:2b2b8c4d2b5c65f69fd8bf",
+        "android_client_info": {
+          "package_name": "com.example.seyyah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134115883822-m9eq0nrvqfj8n0lattdcnf1e2r7om6fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXUFjgkddMeOv10b16a2n7rPx9iAXV53E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134115883822-m9eq0nrvqfj8n0lattdcnf1e2r7om6fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
