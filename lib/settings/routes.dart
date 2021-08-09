@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:seyyah/screens/admin_page.dart';
-import 'package:seyyah/screens/app_info_page.dart';
 import 'package:seyyah/screens/log_page.dart';
 import 'package:seyyah/screens/statistics_page.dart';
 import '../screens/selected_city.dart';
@@ -59,9 +58,6 @@ class Routes {
             settings: settings, builder: (_) => AdminPage());
       case logRoute:
         return MaterialPageRoute(settings: settings, builder: (_) => LogPage());
-      case appInfoRoute:
-        return MaterialPageRoute(
-            settings: settings, builder: (_) => AppInfoPage());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
@@ -92,4 +88,3 @@ const String informationRoute = "/informationPage";
 const String statisticsRoute = "/statisticsPage";
 const String adminRoute = "/adminPage";
 const String logRoute = "/logPage";
-const String appInfoRoute = "/appInfoPage";

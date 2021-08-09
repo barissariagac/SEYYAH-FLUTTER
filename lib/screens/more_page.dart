@@ -109,28 +109,6 @@ class _MorePageState extends State<MorePage> {
               GestureDetector(
                 onTap: () {
                   setState(() {
-                    Navigator.pushNamed(context, "/appInfoPage");
-                  });
-                },
-                child: Container(
-                  height: 70,
-                  decoration: BoxDecoration(
-                      color: Colors.blueGrey[800],
-                      borderRadius: BorderRadius.all(Radius.circular(15))),
-                  child: Center(
-                    child: Text(
-                      "Uygulama Hakkında",
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline4
-                          .copyWith(color: Colors.white),
-                    ),
-                  ),
-                ),
-              ),
-              GestureDetector(
-                onTap: () {
-                  setState(() {
                     SystemNavigator.pop();
                   });
                 },
